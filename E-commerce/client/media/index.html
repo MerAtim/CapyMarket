@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../media/CSS/styles.css" />
+        <script src="https://sdk.mercadopago.com/js/v2"></script>
+        <title>Capy-Market</title>
+    </head>
+    <body>
+    <nav class="navegador">
+        <div class="logo">
+            <img src="../assets/CapyMarket.png" alt="Logo CapyMarket">
+        </div>
+        <p>CapyMarket</p>
+        <div>
+        <ul><li><a href="#contacto">Contacto</a></li></ul>
+        </div>
+    </nav>
+
+        <div class="card-products-container">
+        <div class="card-products" id="shopContent"></div>
+        <div class="modal-overlay" id="modal-overlay"></div>
+        </div>
+        <div class="cart-wrapper">
+            <div class="cart-btn" id="cart-btn">🛒</div>
+            <span class="cart-counter" id="cart-counter">0</span>
+        </div>
+        
+        <div class="modal-container" id="modal-container">
+        <!--  <div id="walletBrick_container" class="boton-mp"></div>-->
+        </div>
+        
+
+        <section id="contacto" class="oculto">
+        <h2>Carpinchos Programando</h2>
+        <p>UTN FRSR</p>
+        <p>Email: <a href="mailto:capymarket@example.com">capymarket@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/5491123456789" target="_blank" rel="noopener">+54 9 11 2345-6789</a></p>
+        <p>Cohorte 2024 - Año: 2025</p>
+        </section>
+
+        <script src="../js/products.js"></script>
+        <script src="../js/index.js"></script>
+        <script src="../js/cart.js"></script>
+    </body>
+</html>
