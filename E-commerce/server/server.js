@@ -3,10 +3,9 @@ import cors from "cors";
 import { MercadoPagoConfig, Preference } from 'mercadopago';
 
 const client = new MercadoPagoConfig({
-    accessToken: 'APP_USR-5056574560531615-090123-7edbab2ac12d72ea938afdaaf950377d-2660554541', //<--vendedor
+  accessToken: process.env.MP_ACCESS_TOKEN,
 });
 
-    // Ya podés usar mercadopago directamente sin instanciar ni configurar
     const app = express();
     const port = 8080;
     app.use(cors());
