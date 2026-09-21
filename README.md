@@ -17,6 +17,6 @@
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/->tuusuario<-/CapyMarket.git
+https://github.com/MerAtim/CapyMarket.git
 cd CapyMarket
 npm install
